@@ -31,7 +31,7 @@ The working directory was in the home directory. When ==ls== is used with a dire
 ### **Directory as a file** 
 !Image{ls3} [lab1ss/ls 3.PNG}
 
-The working directory was \lecture1\messages. When ==cd== is used with a file as an argument, the directory does not change. There was an error since ==cd== can only have paths of a folder, not a file. 
+The working directory was \lecture1. When ==ls== is used with a file as an argument, the given file is listed. There was no error. 
 
 
 
