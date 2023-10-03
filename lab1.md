@@ -1,4 +1,4 @@
-## **==cd== Commands: **
+## cd Commands: 
 
 ### **No args command**
 !Image{cd1} [lab1ss/cd 1.PNG]
@@ -16,7 +16,7 @@ The working directory was in the home directory. When ==cd== is used with a dire
 The working directory was \lecture1\messages. When ==cd== is used with a file as an argument, the directory does not change. There was an error since ==cd== can only have paths of a folder, not a file. 
 
 
-## **==ls== Commands: **
+## ls Commands: 
 
 ### **No args command**
 !Image{ls1} [lab1ss/ls 1.PNG]
@@ -34,7 +34,7 @@ The working directory was in the home directory. When ==ls== is used with a dire
 The working directory was \lecture1. When ==ls== is used with a file as an argument, the given file is listed. There was no error. 
 
 
-## **==cat== Commands: **
+## cat Commands: 
 
 ### **No args command**
 !Image{cat1} [lab1ss/cat 1.PNG]
