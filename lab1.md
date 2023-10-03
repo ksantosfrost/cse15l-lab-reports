@@ -30,7 +30,7 @@ The working directory was at \lecture1. When ==ls== is used with no argument it 
 The working directory was in the home directory. When ==ls== is used with a directory as an argument, the files and folders in the given directory are listed. It was not an error.
 
 ### **Directory as a file** 
-![ls3](lab1ss/ls 3.PNG)
+![ls3](lab1ss/ls3.PNG)
 
 The working directory was \lecture1. When ==ls== is used with a file as an argument, the given file is listed. There was no error. 
 
