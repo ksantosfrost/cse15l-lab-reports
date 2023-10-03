@@ -1,11 +1,11 @@
 ## cd Commands: 
 
-### **No args command**
+#### **No args command**
 !Image{cd1} [lab1ss/cd 1.PNG]
 
 The working directory was at \lecture1\messages. When ==cd== is used with no argument it takes you back to the home directory. It was not an error.
 
-### **Directory as an argument**
+#### **Directory as an argument**
 !Image{cd2} [lab1ss/cd 2.PNG]
 
 The working directory was in the home directory. When ==cd== is used with a directory as an argument, the directory changes to the given path. It was not an error.
