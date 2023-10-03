@@ -1,2 +1,2 @@
 #*HELLOOO*
-![Image] (HELLO.jfif)
+[Image] (HELLO.jfif)
