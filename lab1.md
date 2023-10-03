@@ -13,7 +13,7 @@ The working directory was in the home directory. When cd is used with a director
 ### **Directory as a file** 
 ![cd3](lab1ss/cd3.PNG)
 
-The working directory was \lecture1\messages. When cd is used with a file as an argument, the directory does not change. There was an error since ==cd== can only have paths of a folder, not a file. 
+The working directory was \lecture1\messages. When cd is used with a file as an argument, the directory does not change. There was an error since cd can only have paths of a folder, not a file. 
 
 
 
