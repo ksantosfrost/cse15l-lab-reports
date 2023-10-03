@@ -21,15 +21,15 @@ The working directory was \lecture1\messages. When ==cd== is used with a file as
 ### **No args command**
 !Image{ls1} [lab1ss/ls 1.PNG]
 
-The working directory was at \lecture1\messages. When ==cd== is used with no argument it takes you back to the home directory. It was not an error.
+The working directory was at \lecture1. When ==ls== is used with no argument it lists the files and folders in the working directory. It was not an error.
 
 ### **Directory as an argument**
-!Image{cd2} [lab1ss/cd 2.PNG]
+!Image{ls2} [lab1ss/ls 2.PNG]
 
-The working directory was in the home directory. When ==cd== is used with a directory as an argument, the directory changes to the given path. It was not an error.
+The working directory was in the home directory. When ==ls== is used with a directory as an argument, the files and folders in the given directory are listed. It was not an error.
 
 ### **Directory as a file** 
-!Image{cd3} [lab1ss/cd 3.PNG}
+!Image{ls3} [lab1ss/ls 3.PNG}
 
 The working directory was \lecture1\messages. When ==cd== is used with a file as an argument, the directory does not change. There was an error since ==cd== can only have paths of a folder, not a file. 
 
