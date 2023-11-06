@@ -6,19 +6,20 @@
 The method called are handleRequest(URI URL). An object of the class Hnadler is made in the same main method causing the method handleRequest to be run.
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
-URI url is an object that contains the path /add-message and the query s=Hello. runningString is initially an empty  string.
+URI url is an object that contains the path /add-message and the query s=Hello. runningString is initially an empty  string. The messageCount is 0 initially.
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+messageCount becomes 1. runningString becomes "1. Hello"
 
 ![lab](lab2ss/hello2.PNG)
 **Which methods in your code are called?**
 The methods that are called is handleRequest. An object of the class Handler is made in the main method causing the method handleRequest to be run. 
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
-The arguments relevant to the main method is the port number. For handleRequest, the argument needed is from the Server class which is of type URI. 
+URI url contains /add-messsage?s=How are you. runningString has "1. Hello". messageCount is 1. 
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
-The only relevant field is the runningString variable. This field changes depending on what the user wants to type into the server.
+messageCount becomes 2. runningString becomes "1. Hello  2. How are you"
 
 ![login](lab2ss/login.PNG)
 ![keygen](lab2ss/keygen.PNG)
