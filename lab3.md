@@ -61,7 +61,7 @@ Output:
 Example -name 2:
 
 ```bash
-find ./technical -name "report.docx"
+find ./technical -name "chapter-1.txt"
 ```
 This command searches for a file named report.docx in the ./technical directory. 
 
@@ -70,3 +70,9 @@ Output:
 find ./technical -name "chapter-1.txt"
 ./technical/911report/chapter-1.txt
 ```
+
+Example -type 1:
+```bash
+find ./technical -type d
+```
+This command lists all of the directories inside the ./technical directoy. 
