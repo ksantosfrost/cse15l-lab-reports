@@ -1,5 +1,5 @@
 ### **StringServer**
-![stringserver](lab2ss/stringserver.PNG)
+![stringserver](lab2ss/stringserver1.PNG)
 ### **Output**
 ![hello](lab2ss/hello1.PNG)
 **Which methods in your code are called?**
