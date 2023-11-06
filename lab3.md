@@ -100,6 +100,8 @@ This command looks for files larger than 100 kilobytes. Source: https://kb.iu.ed
 
 **Output:**
 
+![size1](lab3ss/sizeex1.PNG)
+
 **Example -size 2:**
 ```bash
 find ./technical -size -5M
@@ -108,6 +110,7 @@ This command looks for files smaller than 5 megabytes. Source: https://kb.iu.edu
 
 **Output:**
 
+![size2](lab3ss/sizeex2.PNG)
 
 **Example -mtime 1:**
 ```bash
@@ -117,6 +120,8 @@ This command looks for files modified in the last 7 days. Source: https://kb.iu.
 
 **Output:**
 
+![time1](lab3ss/mtimeex1.PNG)
+
 **Example -mtime 2:**
 ```bash
 find ./technical -mtime +30
@@ -124,5 +129,7 @@ find ./technical -mtime +30
 This command looks for files not modified in the last 30 days. Source: https://kb.iu.edu/d/admm
 
 **Output:**
+
+![time2](lab3ss/mtimeex2.PNG)
 
 
