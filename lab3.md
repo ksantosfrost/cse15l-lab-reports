@@ -48,43 +48,81 @@ The first() method is supposed to return the value of the first element in the l
 
 **Command find**
 
-Example -name 1:
+**Example -name 1:**
 ```bash
 find ./technical -name ".txt"
 ```
-The -name option allows you to search for files whose name matches a pattern. This command looks for all files that end with ".txt" in the ./technical directory.
+The -name option allows you to search for files whose name matches a pattern. This command looks for all files that end with ".txt" in the ./technical directory. Source: https://kb.iu.edu/d/admm
 
-Output:
+**Output:**
 
 ![-name](lab3ss/-nameexample.PNG)
 
-Example -name 2:
+**Example -name 2:**
 
 ```bash
 find ./technical -name "chapter-1.txt"
 ```
-This command searches for a file named report.docx in the ./technical directory. 
+This command searches for a file named chapter-1.txt in the ./technical directory. Source: https://kb.iu.edu/d/admm
 
-Output:
+**Output:**
+
 ```bash
 find ./technical -name "chapter-1.txt"
 ./technical/911report/chapter-1.txt
 ```
 
-Example -type 1:
+**Example -type 1:**
 ```bash
 find ./technical -type d
 ```
-This command lists all of the directories inside the ./technical directory. 
+This command lists all of the directories inside the ./technical directory. Source: https://kb.iu.edu/d/admm
 
-Output:
+**Output:**
+
 ![type](lab3ss/typeexample1.PNG)
 
-Example -type 2:
+**Example -type 2:**
 ```bash
 find ./technical -type l
 ```
-This command finds all symbolic links.
+This command finds all symbolic links. Source: https://kb.iu.edu/d/admm
 
-Output:
+**Output:**
+
+![type2](lab3ss/typex2)
+
+**Example -size 1:**
+```bash
+find ./technical -size +100k
+```
+This command looks for files larger than 100 kilobytes. Source: https://kb.iu.edu/d/admm
+
+**Output:**
+
+**Example -size 2:**
+```bash
+find ./technical -size -5M
+```
+This command looks for files smaller than 5 megabytes. Source: https://kb.iu.edu/d/admm
+
+**Output:**
+
+
+**Example -mtime 1:**
+```bash
+find ./technical -mtime -7
+```
+This command looks for files modified in the last 7 days. Source: https://kb.iu.edu/d/admm
+
+**Output:**
+
+**Example -mtime 2:**
+```bash
+find ./technical -mtime +30
+```
+This command looks for files not modified in the last 30 days. Source: https://kb.iu.edu/d/admm
+
+**Output:**
+
 
