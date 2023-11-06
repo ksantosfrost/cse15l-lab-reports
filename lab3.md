@@ -51,9 +51,10 @@ Example 1:
 ```bash
 find ./technical -name ".txt"
 ```
-The -name option allows you to search for files whose name matches a pattern. This command looks for all files that end with ".txt> in the ,/technical directory.
+The -name option allows you to search for files whose name matches a pattern. This command looks for all files that end with ".txt" in the ./technical directory.
 
-
+Output:
+!{-name](lab3ss/-nameexample.PNG)
 Example 2:
 ```bash
 fin
