@@ -1,6 +1,7 @@
 Failure Inducing Input and JUnitTest:
 
-''' import org.junit.Test;
+'''java 
+import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LinkedListTest {
