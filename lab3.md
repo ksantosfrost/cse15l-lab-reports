@@ -90,7 +90,7 @@ This command finds all symbolic links. Source: https://kb.iu.edu/d/admm
 
 **Output:**
 
-![type2](lab3ss/typex2)
+![type2](lab3ss/typeex2.PNG)
 
 **Example -size 1:**
 ```bash
