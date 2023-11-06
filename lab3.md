@@ -75,4 +75,16 @@ Example -type 1:
 ```bash
 find ./technical -type d
 ```
-This command lists all of the directories inside the ./technical directoy. 
+This command lists all of the directories inside the ./technical directory. 
+
+Output:
+![type](lab3ss/typeexample1.PNG)
+
+Example -type 2:
+```bash
+find ./technical -type l
+```
+This command finds all symbolic links.
+
+Output:
+
