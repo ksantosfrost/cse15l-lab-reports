@@ -13,11 +13,11 @@ public class LinkedListTest {
         list.first(); 
     }
 }
-'''
+```
 
 Input that does not induce a failure and JunitTest:
 
-'''java
+```java
 import org.junit.Test;
 import static org.junit.Assert.*;
 import java.util.NoSuchElementException;
@@ -32,4 +32,4 @@ public class LinkedListTest {
         assertEquals("List should have 3 elements", 3, list.length());
     }
 }
-'''
+```
