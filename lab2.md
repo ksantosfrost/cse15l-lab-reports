@@ -13,7 +13,7 @@ messageCount becomes 1. runningString becomes "1. Hello"
 
 ![lab](lab2ss/hello2.PNG)
 **Which methods in your code are called?**
-The methods that are called is handleRequest. An object of the class Handler is made in the main method causing the method handleRequest to be run. 
+The method that is called is handleRequest. An object of the class Handler is made in the main method causing the method handleRequest to be run. 
 
 **What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
 URI url contains /add-messsage?s=How are you. runningString has "1. Hello". messageCount is 1. 
