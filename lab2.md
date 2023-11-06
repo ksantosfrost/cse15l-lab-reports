@@ -2,6 +2,7 @@
 ![stringserver](lab2ss/stringserver1.PNG)
 ### **Output**
 ![hello](lab2ss/hello1.PNG)
+
 **Which methods in your code are called?**
 The method called are handleRequest(URI URL). An object of the class Hnadler is made in the same main method causing the method handleRequest to be run.
 
@@ -12,6 +13,7 @@ URI url is an object that contains the path /add-message and the query s=Hello. 
 messageCount becomes 1. runningString becomes "1. Hello"
 
 ![lab](lab2ss/hello2.PNG)
+
 **Which methods in your code are called?**
 The method that is called is handleRequest. An object of the class Handler is made in the main method causing the method handleRequest to be run. 
 
