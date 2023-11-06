@@ -64,3 +64,9 @@ Example -name 2:
 find ./technical -name "report.docx"
 ```
 This command searches for a file named report.docx in the ./technical directory. 
+
+Output:
+```bash
+find ./technical -name "chapter-1.txt"
+./technical/911report/chapter-1.txt
+```
