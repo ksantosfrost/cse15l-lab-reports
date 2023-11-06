@@ -1,7 +1,6 @@
 Failure Inducing Input and JUnitTest:
 
-''' 
-import org.junit.Test;
+''' import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LinkedListTest {
@@ -11,5 +10,4 @@ public class LinkedListTest {
         LinkedList list = new LinkedList();
         list.last();
     }
-}
-'''
+}'''
