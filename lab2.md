@@ -1,6 +1,15 @@
 ### **StringServer**
 ![stringserver](lab2ss/stringserver.PNG)
 ### **Output**
+![hello](lab2ss/hello1.PNG)
+**Which methods in your code are called?**
+The method called are handleRequest(URI URL). An object of the class Hnadler is made in the same main method causing the method handleRequest to be run.
+
+**What are the relevant arguments to those methods, and the values of any relevant fields of the class?**
+URI url is an object that contains the path /add-message and the query s=Hello. runningString is initially an empty  string.
+
+**How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
+
 ![lab](lab2ss/lab2.PNG)
 **Which methods in your code are called?**
 The methods that are called is handleRequest. An object of the class Handler is made in the main method causing the method handleRequest to be run. 
