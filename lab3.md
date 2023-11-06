@@ -12,7 +12,8 @@ public class LinkedListTest {
         LinkedList list = new LinkedList();
         list.first(); 
     }
-}'''
+}
+'''
 
 Input that does not induce a failure and JunitTest:
 
@@ -30,4 +31,5 @@ public class LinkedListTest {
         list.prepend(30); 
         assertEquals("List should have 3 elements", 3, list.length());
     }
-}'''
+}
+'''
