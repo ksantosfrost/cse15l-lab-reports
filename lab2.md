@@ -10,7 +10,7 @@ URI url is an object that contains the path /add-message and the query s=Hello. 
 
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 
-![lab](lab2ss/lab2.PNG)
+![lab](lab2ss/hello2.PNG)
 **Which methods in your code are called?**
 The methods that are called is handleRequest. An object of the class Handler is made in the main method causing the method handleRequest to be run. 
 
