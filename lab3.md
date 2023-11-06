@@ -33,3 +33,4 @@ public class LinkedListTest {
     }
 }
 ```
+![Code](lab3ss/code1.PNG)
