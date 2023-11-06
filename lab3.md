@@ -34,3 +34,14 @@ public class LinkedListTest {
 }
 ```
 ![Code](lab3ss/code1.PNG)
+
+##Fix/Bug##
+```java
+public int first() {
+    if (this.root == null) {
+        throw new NoSuchElementException("Cannot access first element on an empty list.");
+    }
+    return this.root.value;
+}
+```
+
