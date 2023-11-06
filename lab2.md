@@ -23,7 +23,7 @@ URI url contains /add-messsage?s=How are you. runningString has "1. Hello". mess
 **How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.**
 messageCount becomes 2. runningString becomes "1. Hello  2. How are you"
 
-![login](lab2ss/login.PNG)
+![login](lab2ss/login1.PNG)
 ![keygen](lab2ss/keygen.PNG)
 ![scp](lab2ss/scp.PNG)
 
