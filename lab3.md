@@ -47,14 +47,20 @@ public int first() {
 The first() method is supposed to return the value of the first element in the list. If the list is empty, it should throw a NoSuchElementException. The implementation does not handle the case if the list is empty. With this change I made, it checks if the root is null before trying to return the value. if it is null, it throws a NoSuchElementException which is the expected behavior when trying to access the first element of an empty list.
 
 **Command find**
-Example 1:
+
+Example -name 1:
 ```bash
 find ./technical -name ".txt"
 ```
 The -name option allows you to search for files whose name matches a pattern. This command looks for all files that end with ".txt" in the ./technical directory.
 
 Output:
+
 ![-name](lab3ss/-nameexample.PNG)
-Example 2:
+
+Example -name 2:
+
 ```bash
-fin
+find ./technical -name "report.docx"
+```
+This command searches for a file named report.docx in the ./technical directory. 
