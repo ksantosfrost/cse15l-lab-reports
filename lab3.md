@@ -35,7 +35,7 @@ public class LinkedListTest {
 ```
 ![Code](lab3ss/code1.PNG)
 
-##Fix/Bug
+Fix/Bug
 ```java
 public int first() {
     if (this.root == null) {
@@ -44,4 +44,6 @@ public int first() {
     return this.root.value;
 }
 ```
+The first() method is supposed to return the value of the first element in the list. If the list is empty, it should throw a NoSuchElementException. The implementation does not handle the case if the list is empty. With this change I made, it checks if the root is null before trying to return the value. if it is null, it throws a NoSuchElementException which is the expected behavior when trying to access the first element of an empty list.
+
 
