@@ -12,6 +12,4 @@ public class LinkedListTest {
         list.last();
     }
 }
-
-
 '''
