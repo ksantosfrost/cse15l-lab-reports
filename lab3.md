@@ -35,7 +35,7 @@ public class LinkedListTest {
 ```
 ![Code](lab3ss/code1.PNG)
 
-##Fix/Bug##
+##Fix/Bug
 ```java
 public int first() {
     if (this.root == null) {
