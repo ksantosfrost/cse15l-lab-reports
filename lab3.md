@@ -62,8 +62,7 @@ The -name option allows you to search for files whose name matches a pattern. Th
 ./technical/911report/chapter-12.txt
 ./technical/911report/chapter-11.txt
 ...
-
-![-name](lab3ss/-nameexample.PNG)
+```
 
 **Example -name 2:**
 
