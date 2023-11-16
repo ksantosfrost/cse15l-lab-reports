@@ -56,6 +56,13 @@ The -name option allows you to search for files whose name matches a pattern. Th
 
 **Output:**
 
+``bash
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-11.txt
+...
+
 ![-name](lab3ss/-nameexample.PNG)
 
 **Example -name 2:**
@@ -80,7 +87,11 @@ This command lists all of the directories inside the ./technical directory. Sour
 
 **Output:**
 
-![type](lab3ss/typeexample1.PNG)
+```bash
+./technical
+./technical/911report
+./technical/biomed
+```
 
 **Example -type 2:**
 ```bash
@@ -90,7 +101,7 @@ This command finds all symbolic links. Source: https://kb.iu.edu/d/admm
 
 **Output:**
 
-![type2](lab3ss/typeex2.PNG)
+Nothing was printed from this command.
 
 **Example -size 1:**
 ```bash
@@ -100,7 +111,16 @@ This command looks for files larger than 100 kilobytes. Source: https://kb.iu.ed
 
 **Output:**
 
-![size1](lab3ss/sizeex1.PNG)
+```bash
+./technical/911report/chapter-12.txt
+./technical/911report/chapter-1.txt
+./technical/911report/chapter-13.4.txt
+./technical/911report/chapter-6.txt
+./technical/911report/chapter-7.txt
+./technical/911report/chapter3.txt
+...
+./technical/biomed/1471-2106-3-2.txt
+```
 
 **Example -size 2:**
 ```bash
@@ -110,7 +130,14 @@ This command looks for files smaller than 5 megabytes. Source: https://kb.iu.edu
 
 **Output:**
 
-![size2](lab3ss/sizeex2.PNG)
+```bash
+./technical
+./technical/911report
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-12.txt
+...
+```
 
 **Example -mtime 1:**
 ```bash
@@ -120,7 +147,15 @@ This command looks for files modified in the last 7 days. Source: https://kb.iu.
 
 **Output:**
 
-![time1](lab3ss/mtimeex1.PNG)
+```bash
+./technical
+./technical/911report
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-11.txt
+...
+```
 
 **Example -mtime 2:**
 ```bash
@@ -130,6 +165,15 @@ This command looks for files not modified in the last 30 days. Source: https://k
 
 **Output:**
 
-![time2](lab3ss/mtimeex2.PNG)
+```bash
+./technical
+./technical/911report
+./technical/911report/chapter-5.txt
+./technical/911report/chapter-13.1.txt
+./technical/911report/chapter-2.txt
+./technical/911report/chapter-11.txt
+...
+```
+
 
 
