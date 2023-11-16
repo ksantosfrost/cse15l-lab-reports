@@ -33,7 +33,7 @@ public class LinkedListTest {
     }
 }
 ```
-![Code](lab3ss/code1.PNG)
+![Code](lab3ss/ss.PNG)
 
 Fix/Bug
 ```java
