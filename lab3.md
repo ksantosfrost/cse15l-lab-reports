@@ -56,7 +56,7 @@ The -name option allows you to search for files whose name matches a pattern. Th
 
 **Output:**
 
-``bash
+```bash
 ./technical/911report/chapter-5.txt
 ./technical/911report/chapter-13.1.txt
 ./technical/911report/chapter-12.txt
