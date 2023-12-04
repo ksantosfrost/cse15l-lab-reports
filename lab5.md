@@ -57,6 +57,7 @@ public static boolean isPrime(int number) {
     }
     return true;
 }
+```
 
 ![ss2](lab5ss/ss2.PNG)
 Lab Reflection:
