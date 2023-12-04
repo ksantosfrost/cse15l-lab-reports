@@ -1,4 +1,2 @@
-``java
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore
-``
+**Step 1**
+!Image[step1](lab4ss/ss1.PNG)
