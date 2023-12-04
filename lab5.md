@@ -1,4 +1,4 @@
-**Student's Question*
+**Student's Question**
 Hi all,
 
 I'm working on a Java program to list all prime numbers up to a given number. However, I'm getting some unexpected non-prime numbers in my output. For instance, when I input 10, the output does not include 9, which is prime. I think the bug might be in my loop or the prime-checking condition, but I'm not sure. Here's a screenshot of the output.
@@ -43,6 +43,7 @@ It sounds like there might be an issue with your prime-checking logic. Could you
 Best,
 TA
 
+**Student's Follow-up**
 Thanks for the suggestion, TA! I added the print statements, and here's what I found. It looks like my program is not correctly identifying non-prime numbers. For example, it's not correctly identifying 9 as a non-prime. Here's the updated code and the output I got.
 
 **Updated Code:**
