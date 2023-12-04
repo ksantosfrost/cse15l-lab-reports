@@ -1,4 +1,5 @@
 **Step 4 and 5**
+
 ![step4](lab4ss/ss1.PNG)
 
 For this step, I logged onto ieng6 and used the 
@@ -8,6 +9,7 @@ git clone git@github.com:ksantosfrost/lab7.git
 command to clone the github repository using ssh. 
 
 **Step 6**
+
 ![step6](lab4ss/ss2.PNG)
 
 For this step, I used the
@@ -29,6 +31,7 @@ bash test.sh
 to run the tests. I then got the output of the test showing that there was one failure. 
 
 **Step 7**
+
 ![step7](lab4ss/ss3.PNG)
 
 For this step I used the 
@@ -43,9 +46,15 @@ instead of
 ```
 index2 += 1; 
 ```
-I changed that, pressed <Escape> then typed in :wq to save and exit the file. 
+I changed that, pressed 
+
+```
+<Escape>
+```
+then typed in :wq to save and exit the file.
 
 **Step 8**
+
 ![step8](lab4ss/ss4.PNG)
 
 For this step, I used the 
@@ -55,6 +64,7 @@ bash test.sh
 command to run the bash file again. The output of the tests was then showed in the terminal. It passed the test. 
 
 **Step 9**
+
 ![step9](lab4ss/ss5.PNG)
 
 For this step I used 
