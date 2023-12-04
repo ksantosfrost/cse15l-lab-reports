@@ -28,7 +28,7 @@ public class PrimeCalculator {
                 return false;
             }
         }
-        return true; // Bug: Incorrectly skips some non-prime numbers
+        return true; // Bug: Incorrectly skips some prime numbers
     }
 }
 
