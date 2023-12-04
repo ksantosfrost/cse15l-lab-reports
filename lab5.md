@@ -65,7 +65,8 @@ public static boolean isPrime(int number) {
 ```
 
 ![ss2](lab5ss/ss2.PNG)
-Lab Reflection:
+
+**Lab Reflection:**
 
 The coolest thing I learned was how to use the vim command. I already knew about nano, which is simpler, but vim turned out to be really interesting. Vim lets you do a lot of stuff quickly just using the keyboard, without needing a mouse. This can make working on code or editing text much faster once you get used to it.
 
