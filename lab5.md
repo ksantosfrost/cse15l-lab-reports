@@ -28,7 +28,7 @@ public class PrimeCalculator {
                 return false;
             }
         }
-        return true; // Bug: Incorrectly returns true for non-prime numbers
+        return true; // Bug: Incorrectly skips some non-prime numbers
     }
 }
 
@@ -49,7 +49,7 @@ TA
 
 **Student's Follow-up**
 
-Thanks for the suggestion, TA! I added the print statements, and here's what I found. It looks like my program is not correctly identifying non-prime numbers. For example, it's not correctly identifying 9 as a non-prime. Here's the updated code and the output I got.
+Thanks for the suggestion, TA! I added the print statements, and here's what I found. It looks like my program is not correctly identifying prime numbers. For example, it's not correctly identifying 9 as a prime. Here's the updated code and the output I got.
 
 **Updated Code:**
 ```java
@@ -65,6 +65,8 @@ public static boolean isPrime(int number) {
 ```
 
 ![ss2](lab5ss/ss2.PNG)
+
+Turns out that 9 is indeed not a prime number. I thought that 9 was a prime number which confused me as to why my code is showing 9 not being a prime number. It was a mistake on my part. But thank you for showing me how to correctly debug and test my code!
 
 **Lab Reflection:**
 
